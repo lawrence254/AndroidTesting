@@ -11,6 +11,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     @BindView(R.id.moveButton) Button mBUtton;
+    @BindView(R.id.catchUpButton) Button mCatchUpButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
